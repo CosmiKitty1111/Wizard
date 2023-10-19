@@ -1,0 +1,73 @@
+body {
+    background-color: green;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: orange;
+    height: 42px;
+}
+
+.main {
+    background-color: beige;
+    margin-top: 0;
+    margin-bottom: 0;
+    min-height: calc(100vh - 84px);
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.75em;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.wizardcontainer {
+    display: flex;
+}
+
+.wizardcontainer img {
+    width: 50%;
+}
+
+/* ------------------------ Projects Banner ------------------------ */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.banner a img {
+    width: 100%;
+    height: auto;
+}
+
+.banner a {
+    width: 100%;
+    text-align: center;
+}
+
+/* ------------------------ End Of Projects Banner ------------------------ */
